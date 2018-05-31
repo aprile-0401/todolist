@@ -1,0 +1,32 @@
+  .footer{
+    color: #777;
+    padding: 10px 15px;
+    height: 20px;
+    border-top: 1px solid #e6e6e6;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.2), 0 8px 0 -3px #f6f6f6, 0 9px 1px -3px rgba(0, 0, 0, 0.2), 0 16px 0 -6px #f6f6f6, 0 17px 2px -6px rgba(0, 0, 0, 0.2);
+  }
+  .todo-count strong{
+    font-weight: 300;
+  }
+  .todo-state{
+    margin-left:100px;
+  }
+  .todo-state li{
+    border-width: 1px;
+    border-style: solid;
+    border-color:transparent;
+    border-radius: 3px;
+    padding:0 7px;
+    margin-right: 10px;
+  }
+  .todo-state li:hover {
+    border-color: rgba(175, 47, 47, 0.1);
+    cursor: pointer;
+    
+  }
+  .todo-state li.selected{
+    border-color:rgba(175, 47, 47, 0.2);
+  }
+  .todo-state,.todo-state li{
+    display: inline-block;
+  }

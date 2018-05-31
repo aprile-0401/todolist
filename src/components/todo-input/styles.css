@@ -1,0 +1,31 @@
+.todo-input{
+    margin-left: 45px;
+}
+.todo-input input{
+    padding:15px 60px 15px 15px;
+    border:none;
+    outline:none;
+    color: #4d4d4d;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 1.2;
+}
+.todo-del{
+    width: 40px;
+    height: 40px;
+    margin: auto 0;
+    font-size: 30px;
+    color: #cc9a9a;
+    padding: 0;
+    border: 0;
+    background: none;
+    outline: none;
+    display:none;
+    position: absolute;
+    right: 10px;
+    top: 0;
+    bottom:0;
+}
+.todo-del:after{
+    content:"×";
+}

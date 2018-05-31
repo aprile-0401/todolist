@@ -1,0 +1,14 @@
+.todo-list:hover .todo-del{
+	display: inline-block;
+}
+.todo-list{
+	position: relative;
+    font-size: 24px;
+}
+.check-input{
+	width:40px;
+	height:40px;
+    position: absolute;
+    left:0;
+    top:0;
+}
